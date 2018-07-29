@@ -1,0 +1,8 @@
+version: "2"
+services:
+  band-manager-backend:
+    build: .
+    env_file:
+      - /etc/environment
+    ports:
+      - "3082:3082"
